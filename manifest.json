@@ -4,7 +4,7 @@
   "author": "Bob Wright",
   "version": "1.0.0",
   "manifest_version": 3,
-  "icons": {
+"icons": {
     "16": "/images/isoblock16.png",
     "32": "/images/isoblock32.png",
     "48": "/images/isoblock48.png",
@@ -19,7 +19,7 @@
     "128": "/images/isoblock128.png"
   }
   },
-  "permissions": ["activeTab", "scripting", "tabs"],
+  "permissions": ["activeTab"],
   "content_scripts": [
   {
     "matches": ["*://*/*", "file:///*"],
