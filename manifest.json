@@ -21,7 +21,7 @@
   },
   "content_scripts": [
   {
-    "matches": ["*://*/*", "file:///*"],
+    "matches": ["*://*/*", "http://*/*", "https://*/*", "file:///*"],
     "js": ["showVPdetails.js"]
   }
   ]
